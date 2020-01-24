@@ -1,0 +1,111 @@
+@import 'variables';
+@import 'types';
+
+html {
+    margin: 0;
+}
+
+body{
+    font-family: $main-font;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-image: url('../img/background.jpg');
+}
+
+.pokedex-card{
+    position: relative;
+    margin: 20px;
+    background-image: url('../img/fondo1.png');
+    background-repeat: repeat;
+    box-sizing: border-box;
+    width: 942px;
+    height: 600px;
+    padding-bottom: 56px;
+    padding-top: 178px;
+    padding-left: 44px;
+    padding-right: 21px;
+    box-shadow: -10px 10px 9px -5px rgba(0,0,0,1);
+    border-radius: 13px;
+}
+
+#content-header{
+    background-color: $header;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 942px;
+    height: 80px;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+    color: white;
+    font-size: 28px;
+    font-weight: bolder;
+    text-align: center;
+    #poke-input {
+    font-family: $main-font;
+    height: 29px;
+    width: 268px;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding-left: 8px;
+    }
+    #poke-button{
+        font-family: $main-font;
+        height: 34px;
+        width: 100px;
+        border-radius: 10px;
+        color: gray;
+    }
+}
+
+#pikachu-id{
+    position: absolute;
+    width: 280px;
+    right: -105px;
+    bottom: -15px;
+}
+
+#photo-poke{
+    border: 10px solid $yellow-border;
+    border-radius: 10px;
+    margin: 7px;
+    background-image: url('../img/fondo2.png');
+    background-size: 50px;
+    box-shadow: 0px 0px 10px 4px rgba(99, 99, 99, 0.18);
+    position: absolute;
+    left: 100px;
+    img {
+        width: 196px;
+        height: 196px;
+    }
+}
+
+#info-poke-card{
+    background-color: $yellow-border;
+    box-sizing: border-box;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 12px;
+    width: 410px;
+    height: 135px;
+    position: absolute;
+    right: 90px;
+    top: 188px;
+    #poke-types-id{
+        margin: 5px;
+        display: flex;
+        color: $card-text;
+        span {
+            border-radius: 7px;
+            border: 1.5px solid $card-text;
+            padding: 7px;
+            margin-left: 10px;
+        }
+    }
+}

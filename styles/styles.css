@@ -1,0 +1,205 @@
+.type-water {
+  background-color: #718bf1;
+  color: #606060;
+}
+
+.type-fire {
+  background-color: #e28145;
+  color: #606060;
+}
+
+.type-normal {
+  background-color: #aca981;
+  color: #606060;
+}
+
+.type-fighting {
+  background-color: #bf3228;
+  color: #606060;
+}
+
+.type-flying {
+  background-color: #a792ee;
+  color: #606060;
+}
+
+.type-poison {
+  background-color: #a042a3;
+  color: #606060;
+}
+
+.type-ground {
+  background-color: #e2c06b;
+  color: #606060;
+}
+
+.type-rock {
+  background-color: #b6a038;
+  color: #606060;
+}
+
+.type-bug {
+  background-color: #aab922;
+  color: #606060;
+}
+
+.type-ghost {
+  background-color: #705a98;
+  color: #606060;
+}
+
+.type-steel {
+  background-color: #b7b8ce;
+  color: #606060;
+}
+
+.type-grass {
+  background-color: #79cb4f;
+  color: #606060;
+}
+
+.type-electric {
+  background-color: #f8d02e;
+  color: #606060;
+}
+
+.type-psychic {
+  background-color: #f55a86;
+  color: #606060;
+}
+
+.type-ice {
+  background-color: #9bd8d8;
+  color: #606060;
+}
+
+.type-dragon {
+  background-color: #6b3af8;
+  color: #606060;
+}
+
+.type-dark {
+  background-color: #705847;
+  color: #606060;
+}
+
+.type-fairy {
+  background-color: #ee9bae;
+  color: #606060;
+}
+
+.type-unknown {
+  background-color: #68a192;
+  color: #606060;
+}
+
+html {
+  margin: 0;
+}
+
+body {
+  font-family: "Press Start 2P", cursive;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  background-image: url("../img/background.jpg");
+}
+
+.pokedex-card {
+  position: relative;
+  margin: 20px;
+  background-image: url("../img/fondo1.png");
+  background-repeat: repeat;
+  box-sizing: border-box;
+  width: 942px;
+  height: 600px;
+  padding-bottom: 56px;
+  padding-top: 178px;
+  padding-left: 44px;
+  padding-right: 21px;
+  box-shadow: -10px 10px 9px -5px black;
+  border-radius: 13px;
+}
+
+#content-header {
+  background-color: #02aaf7;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 942px;
+  height: 80px;
+  border-top-left-radius: 13px;
+  border-top-right-radius: 13px;
+  color: white;
+  font-size: 28px;
+  font-weight: bolder;
+  text-align: center;
+}
+#content-header #poke-input {
+  font-family: "Press Start 2P", cursive;
+  height: 29px;
+  width: 268px;
+  border-radius: 10px;
+  margin-top: 20px;
+  padding-left: 8px;
+}
+#content-header #poke-button {
+  font-family: "Press Start 2P", cursive;
+  height: 34px;
+  width: 100px;
+  border-radius: 10px;
+  color: gray;
+}
+
+#pikachu-id {
+  position: absolute;
+  width: 280px;
+  right: -105px;
+  bottom: -15px;
+}
+
+#photo-poke {
+  border: 10px solid #f9f8a4;
+  border-radius: 10px;
+  margin: 7px;
+  background-image: url("../img/fondo2.png");
+  background-size: 50px;
+  box-shadow: 0px 0px 10px 4px rgba(99, 99, 99, 0.18);
+  position: absolute;
+  left: 100px;
+}
+#photo-poke img {
+  width: 196px;
+  height: 196px;
+}
+
+#info-poke-card {
+  background-color: #f9f8a4;
+  box-sizing: border-box;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  line-height: 30px;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-size: 12px;
+  width: 410px;
+  height: 135px;
+  position: absolute;
+  right: 90px;
+  top: 188px;
+}
+#info-poke-card #poke-types-id {
+  margin: 5px;
+  display: flex;
+  color: #606060;
+}
+#info-poke-card #poke-types-id span {
+  border-radius: 7px;
+  border: 1.5px solid #606060;
+  padding: 7px;
+  margin-left: 10px;
+}
+
+/*# sourceMappingURL=styles.css.map */
